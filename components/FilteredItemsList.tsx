@@ -20,7 +20,7 @@ const FilteredItemList: React.FC<FilteredItemListProps> = ({ items, onChipClick 
           <div className={`bg-${item.color} text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 font-bold`}>
             {item.title[0].toUpperCase()}
           </div>
-          <div className="flex flex-row items-center">
+          <div className="flex flex-row items-center gap-3">
             <div>{item.title}</div>
             <div className="text-gray-500">{item.email}</div>
           </div>
