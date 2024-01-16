@@ -74,7 +74,7 @@ const ChipsInput: React.FC<ChipsInputProps> = () => {
                     className={`bg-gray-200 text-black rounded-full px-3 py-1 ml-2 mb-2 flex items-center ${highlightedChip === chip.id ? 'bg-orange-50 text-white' : ''
                         }`}
                 >
-                    <div className={`bg-${chip.color} text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 font-bold`}>
+                    <div className={`bg-blue-70 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 font-bold`}>
                         {chip.label[0].toUpperCase()}
                     </div>
                     {chip.label}
