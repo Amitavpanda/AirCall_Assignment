@@ -17,7 +17,7 @@ const FilteredItemList: React.FC<FilteredItemListProps> = ({ items, onChipClick 
           onClick={() => onChipClick(item)}
           className="cursor-pointer p-2 hover:bg-gray-100 flex items-center"
         >
-          <div className={`bg-blue-70 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 font-bold`}>
+          <div className={`bg-${item.color} text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 font-bold`}>
             {item.title[0].toUpperCase()}
           </div>
           <div className="flex flex-row items-center gap-3">
